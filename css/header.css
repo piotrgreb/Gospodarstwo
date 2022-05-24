@@ -1,0 +1,74 @@
+.baner {
+  background-image: url("../images/wheat-1845835_1920.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.baner__title {
+  font-family: "Barlow", sans-serif;
+  color: #d4a252;
+  letter-spacing: 0;
+  line-height: 58px;
+  text-align: center;
+  margin: 100px 0 0 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.baner__title :nth-child(2) {
+  font-size: 58px;
+}
+
+.baner__title img {
+  display: block;
+  width: 15vw;
+  margin-left: calc(50% - 15vw / 2);
+}
+
+.baner__link {
+  position: absolute;
+  bottom: 10%;
+}
+
+.baner__link .baner__scroll {
+  height: 33px;
+  width: 146px;
+  background-color: rgba(220, 24, 37, 0.8);
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 0px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.baner__link .baner__scroll :hover {
+  cursor: pointer;
+}
+
+.baner__link :hover {
+  cursor: pointer;
+}
+
+.baner__link .baner__arrow {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 18px solid rgba(220, 24, 37, 0.8);
+  bottom: -110% !important;
+  margin-left: calc(50% - 9px);
+}
+/*# sourceMappingURL=header.css.map */

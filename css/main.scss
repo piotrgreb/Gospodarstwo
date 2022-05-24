@@ -1,0 +1,72 @@
+@import "variables.scss";
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__text{
+    p {
+      margin-bottom: 50px;
+    }
+
+    color: #494949;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 23px;
+    width: 50vw;
+    margin-top: 50px;
+
+    span {
+      color: $color-font;
+      font-family: "Barlow", sans-serif;
+      letter-spacing: 0;
+      line-height: 48px;
+      font-size: 84px;
+      font-weight: 700;
+      float: left;
+      margin-top: 7px;
+      padding-right: 7px;
+    }
+  }
+  &__section {
+    display: flex;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    figure {
+      img {
+        position: relative;
+        max-height: 263px;
+       
+      }
+    }
+    .content__desc {
+      flex-direction: column;
+      position: relative;
+      padding-left: 40px;
+
+      
+      .content__desc-text {
+        color: $color-font;
+        font-size: 20px;
+        font-family: $main-font;
+        font-weight: 700;
+
+      }
+      .content__desc-text2 {
+        font-family: $main-font;
+        color: #494949;
+        font-weight: 400;
+        margin-top: 20px;
+
+      }
+    
+    }
+  }
+ 
+}
